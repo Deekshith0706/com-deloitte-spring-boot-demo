@@ -1,0 +1,34 @@
+2022-07-27 09:43:12.304  INFO 2640 --- [restartedMain] com.deloitte.spring.boot.demo.App        : Starting App using Java 17.0.3 on USHYDDEDEE6 with PID 2640 (C:\Users\DEDEEKSHITH\github\com-deloitte-spring-boot-demo\target\classes started by dedeekshith in C:\Users\DEDEEKSHITH\github\com-deloitte-spring-boot-demo)
+2022-07-27 09:43:12.308  INFO 2640 --- [restartedMain] com.deloitte.spring.boot.demo.App        : No active profile set, falling back to 1 default profile: "default"
+2022-07-27 09:43:12.353  INFO 2640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 09:43:12.353  INFO 2640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 09:43:12.942  INFO 2640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 09:43:12.988  INFO 2640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2022-07-27 09:43:13.429  INFO 2640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-27 09:43:13.439  INFO 2640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-27 09:43:13.439  INFO 2640 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-27 09:43:13.517  INFO 2640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-27 09:43:13.517  INFO 2640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1163 ms
+2022-07-27 09:43:13.636  INFO 2640 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 09:43:13.688  INFO 2640 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 09:43:13.853  INFO 2640 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 09:43:13.948  INFO 2640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-27 09:43:14.250  INFO 2640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-27 09:43:14.271  INFO 2640 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 09:43:14.848  INFO 2640 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 09:43:14.855  INFO 2640 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 09:43:15.208  WARN 2640 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 09:43:15.762  INFO 2640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-27 09:43:15.821  INFO 2640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 09:43:15.835  INFO 2640 --- [restartedMain] com.deloitte.spring.boot.demo.App        : Started App in 3.82 seconds (JVM running for 4.509)
+2022-07-27 09:43:15.839  INFO 2640 --- [restartedMain] com.deloitte.spring.boot.demo.App        : Started deloitte app...
+2022-07-27 09:43:44.355  INFO 2640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 09:43:44.356  INFO 2640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-27 09:43:44.356  INFO 2640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-27 09:44:27.791  WARN 2640 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-07-27 09:44:34.117  INFO 2640 --- [http-nio-8080-exec-4] c.d.s.b.demo.service.DepartmentService   : Department [departmentId=0, departmentName=Civil, city=Bangalore]
+2022-07-27 09:44:43.047  WARN 2640 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-07-27 09:55:22.979  INFO 2640 --- [http-nio-8080-exec-9] c.d.s.b.demo.service.DepartmentService   : 7
+2022-07-27 09:55:36.513  INFO 2640 --- [http-nio-8080-exec-10] c.d.s.b.demo.service.DepartmentService   : 10
+2022-07-27 09:55:36.520  WARN 2640 --- [http-nio-8080-exec-10] c.d.s.b.demo.service.DepartmentService   : Department with id 10 is not found
+2022-07-27 09:55:36.522  WARN 2640 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.deloitte.spring.boot.demo.exception.DepartmentNotFoundException: Department with id 10 is not found]
